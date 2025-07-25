@@ -55,7 +55,7 @@ const video = document.getElementById('video');
 
     function drawFrameWithPhotos() {
       const frame = new Image();
-      frame.src = '../public/images/Frame.png'; // pastikan path ini benar
+      frame.src = 'public/images/Frame.png'; // pastikan path ini benar
 
       const loadedImages = [];
       let loadedCount = 0;
