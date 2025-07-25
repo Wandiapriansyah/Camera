@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Photo Booth</title>
+</head>
+<body>
+  <h1>Photo Booth Frame</h1>
+
+  <div style="position: relative; display: inline-block;">
+    <video id="video" autoplay playsinline width="480" height="360"></video>
+    <div id="countdown">3</div>
+  </div>
+
+  <br><br>
+  <button id="captureBtn">Ambil Foto</button>
+  <button id="downloadBtn" style="display:none;">Download</button>
+
+  <div id="photoRow"></div>
+
+  <canvas id="frameResult" width="591" height="1772"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
